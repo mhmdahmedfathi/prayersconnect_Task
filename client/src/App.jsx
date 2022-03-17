@@ -52,7 +52,7 @@ function App() {
         IsAdded && <Form Data={data} IsAdded={toggleForm} AddData={AddData} />
       }
       <button type="button" className="btn btn-primary" disabled={disabled} onClick={FetchData}>
-        Get Data From Api
+        Fetch Fake Data
       </button>
       {
         !IsAdded && (
